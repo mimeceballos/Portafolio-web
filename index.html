@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet"> 
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Portafolio web | Karime Ceballos</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav>
+        <h1>Karime Ceballos Castillo</h1>
+        <ul>
+          <li><a href="#about" class="nav-link">Sobre mi</a></li>  
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>  
+          <li><a href="#projects" class="nav-link">Proyectos</a></li>  
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>  
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+        <img src="images/ilustración2.png" alt="women in tech" class="hero-img" loading="lazy">
+        <div class="bio animate_animated animate__shakeX">
+            <h2 class="bio-tittle">Sobre mi</h2>
+            <p class="bio-text">¡Hola! soy Karime Ceballos Castillo, actualmente estoy cursando el tercer semestre de la carrera Administración en tecnologías de la información en la Facultad de Contaduría y Administración en la Universidad Autónoma de Yucatán</p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>Más sobre mi</h2>
+        <p>Mi nombre es Karime Ceballos Castillo, tengo 19 años y soy estudiante de la licenciatura en Administración en Tecnologías de la Información en la Facultad de Contaduría y Administración (FCA) de la Universidad Autónoma de Yucatán (UADY). Como principiante en el mundo de la programación, he adquirido experiencia en lenguajes como CSS, HTML y Python. Estoy entusiasmada por seguir aprendiendo y desarrollando mis habilidades en este campo para contribuir de manera significativa en el ámbito de la tecnología.</p>
+        <p>Mi interés por la programación comenzó en la preparatoria, donde cursé la materia de programación, lo que despertó mi pasión por esta área y me motivó a seguir una carrera relacionada. La carrera de LATI me brinda una formación integral que combina la administración con el dominio de las tecnologías de la información, preparándome para enfrentar los desafíos del mundo digital y contribuir de manera efectiva en el ámbito tecnológico.</p>
+        <p>Como mujer joven en el mundo de la tecnología, me enorgullece ser parte de un campo en constante evolución y lleno de oportunidades. Aunque es un sector tradicionalmente dominado por hombres, cada vez más mujeres estamos ingresando y haciendo contribuciones significativas. Me motiva el desafío de romper estereotipos y demostrar que el talento y la pasión no tienen género. Ser parte de esta revolución me impulsa a seguir aprendiendo, innovando y sirviendo de inspiración para otras jóvenes que desean incursionar en la tecnología. Creo firmemente en la importancia de la diversidad y la inclusión para fomentar la creatividad y el progreso en la industria tecnológica.</p>
+    </section>
+
+    <!--Habilidades-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">Habilidades</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+                    <img src="images/python.png" alt="python" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-tittle">Proyectos recientes</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/interfaz_pinterest.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-tittle">Interfaz Pinterest</h3>
+                <p class="project-details">Creado puramente con HTML5 y CSS3.</p>
+                <a href="https://interfaz-pinteres-git-main-karime-ceballos-projects.vercel.app/" target="_blank" class="project-link">Checalo!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/interfaz_pinterest.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-tittle">Proyecto 2</h3>
+                <p class="project-details">trabajando...</p>
+                <a href="#" target="_blank" class="project-link">Estate pendiente!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/interfaz_pinterest.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-tittle">Proyecto 3</h3>
+                <p class="project-details">trabajando...</p>
+                <a href="#" target="_blank" class="project-link">Estate pendiente!</a>
+            </div>
+        </div>     
+    </section>
+
+    <!--Redes sociales-->
+    <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=100009026247551" target="_blank"><img src="icons/facebook.png" alt="facebook" loading="lazy" class="socicon"></a>
+        <a href="https://github.com/mimeceballos" target="_blank"><img src="icons/github.png" alt="github" loading="lazy" class="socicon"></a>
+        <a href="https://wa.me/529994975171" target="_blank"><img src="icons/whatsapp.png" alt="whatsapp" loading="lazy" class="socicon"></a>
+        <a href="https://www.instagram.com/mime.ceballos/" target="_blank"><img src="icons/instagram.png" alt="instagram" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll buttom-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/scroll.gif" class="soicon scroll-up" alt="scroll up">
+    </i>
+
+    <!--Footer-->
+    <footer>
+        <p>Este sitio fue construido por <a href="https://wa.me/529994975171" target="_blank">Karime Ceballos Castillo</a></p>
+    </footer>
+
+    <!--JavaScript connection-->
+    <script src="app.js"></script>
+
+     <!-- Ion icons scripts -->
+      <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+     ></script>
+     <script
+     nomodule
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+     ></script>
+</body>
+</html>
